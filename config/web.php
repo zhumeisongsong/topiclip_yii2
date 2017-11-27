@@ -30,10 +30,12 @@ $config = [
             'useFileTransport' => false,
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
+
+                //TODO:please set your email config
                 'host' => 'smtp.sina.com',
                 'username' => 'yuantianbingxue@sina.com',
                 'password' => 'ytbx2222222',
-//                'port' => '25',
+                //'port' => '25',
                 'encryption' => 'tls',
             ],
         ],
