@@ -25,7 +25,7 @@
             <li class="nav-item"><a href="#reason" class="arrow-right">TOPICLIPとは</a></li>
             <li class="nav-item"><a href="#plan" class="arrow-right">料金プラン</a></li>
             <li class="nav-item"><a href="#question" class="arrow-right">よくある質問</a></li>
-            <li class="nav-item nav-btn"><a href="contact" class="btn btn-blue">お問い合わせ</a></li>
+            <li class="nav-item nav-btn"><a href="index.php?r=site/contact" class="btn btn-blue">お問い合わせ</a></li>
           </ul>
         </section>
       </div>
@@ -403,5 +403,12 @@
     </div>
   </section>
 </div>
-
+<!--footer-->
+<footer class="container footer-con">
+  <h4>“話題”を見つける“話題”の傾向を知るWebクリッピングツール「TOPICLIP　（トピクリップ）」</h4>
+  <div class="btn-con"><a href="#plan" class="btn btn-yellow">料金プランを見る</a> <a href="index.php?r=site/contact" class="btn btn-green">お問い合わせ</a>
+  </div>
+  <div class="link-con row"><a href="#" class="col-xs-12">利用規約</a> <a href="#" class="col-xs-12">プライバシーポリシー</a> <a
+      href="#" class="col-xs-12">運営会社：株式会社Green romp</a></div>
+</footer>
 
