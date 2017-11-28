@@ -26,28 +26,16 @@ class SiteController extends Controller
      */
     public function actionContact()
     {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
-        }
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
+//        $model = new ContactForm();
+//        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
+//            Yii::$app->session->setFlash('contactFormSubmitted');
+//
+//            return $this->refresh();
+//        }
+        return $this->render('contact');
+//        return $this->render('contact', [
+////            'model' => $model,
+//        ]);
     }
+
 }
-//
-//<?php
-//
-//namespace app\models;
-//
-//use yii\db\ActiveRecord;
-//
-//class Contact extends ActiveRecord
-//{
-//    public static function product()
-//    {
-//        return 'product';
-//    }
-//}
